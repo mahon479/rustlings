@@ -1,4 +1,4 @@
-# Sections 00 (Intro) to 05 (Vecs)
+# Sections 00 (Intro) to 03 (if)
 
 ## Section 00
 ### Intro1
@@ -62,4 +62,10 @@
 ## Section 03
 ### if1
 - This code does not compile because a function is declared but is not really implemented. My job is to implement it.
-- 
+- I wrote this code that passes the tests, `if a > b {a} else {b}`
+### if2
+- This code does not compile because the else statement returns an integer but the function defines the return type as a string.
+- To fix this and get the tests to pass I added an else if statement and changed the else statement like so, `if food == "strawberry" {"Yummy!"} else if food == "potato" {"I guess I can eat that."} else {"No thanks!"}`
+### if3
+- This code does not compile because there is a type mismatch problem in the identifier object. All of the identifier if statements return integers except for else statement that returns "Unknown". This causes an incompatible type error. Another issue is the 2.0 return value in one of the else if statements as this is type float
+- To fix this I changed the else statement to return '0' instead of "Unknown" and I change the else if statement to return '2' instead of '2.0'. This makes sure all the returns are integers in the identifier variable
