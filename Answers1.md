@@ -69,3 +69,6 @@
 ### if3
 - This code does not compile because there is a type mismatch problem in the identifier object. All of the identifier if statements return integers except for else statement that returns "Unknown". This causes an incompatible type error. Another issue is the 2.0 return value in one of the else if statements as this is type float
 - To fix this I changed the else statement to return '0' instead of "Unknown" and I change the else if statement to return '2' instead of '2.0'. This makes sure all the returns are integers in the identifier variable
+
+## Questions/Clarifications
+I think I understand Functions5 but I just want some clarification on shadowing vs mutating a variable. Does shadowing work on an unmutable variable is the type is changed? Or is there something else I am missing here. 
