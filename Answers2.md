@@ -11,4 +11,6 @@
     - This code follows the match control flow construction the book talks about
 
 ## Strings4
-- 
+- This code did not compile because the function placeholder does not take any arguments. The instructions were to fix this by replacing the placeholder function with the correct choice of either `string_slice` or `string`.
+- To fix this I changed each placeholder to the appropriate function, either `string_slice` or `string`
+- I was able to figure them all but even after our discussion about strings in class a couple are still confusing to me. Could you help me understand why `string(format!("Interpolation {}", "Station"));` is not a string slice? Also, why is `string_slice(&String::from("abc")[0..1]);` not a string?
